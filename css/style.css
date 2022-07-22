@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.form{
+    position: relative;
+    margin: 0px auto;
+    width: 1134px;
+    height: 650px;
+    text-align: left;
+    color: #fff;
+    display: block;
+}
+.form__body{
+    padding-top: 209px;
+    position: relative;
+    display: block;
+}
+.form__body p{
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    
+}
+.form__items{
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+}
+.form__item{
+    position: relative;
+    display: inline-block;
+    margin-right: 40px;
+}
+.form__item input{
+   
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    min-width: 306px;
+    height: 22px;
+    padding-left: 30px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    align-items: center;
+}
+.form__item:not(:last-child){
+    margin-right: 40px;
+}
+.form__flag input{
+}
+.form__flag input::placeholder{
+    padding-left: 23px ;
+}
+.form__item input::placeholder {
+    display: block;
+    color: #fff;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.flag{
+    position: absolute;
+    padding-left: 17px;
+    padding-top: 13px;
+    align-items: center;
+}
+.form__about{
+    display: flex;
+}
+.about{
+    padding-top: 34px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 17px;
+    width: 719px;
+}
+.about a{
+    color: rgba(235, 121, 121, 1);
+    text-decoration: underline;
+}
+.form__button{
+    border: 0;
+    
+    background-color: #fff;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 340px;
+    height: 50px;
+    margin-left: 42px;
+    margin-top: 33px;
+}
